@@ -11,8 +11,12 @@ For the convenience of searching for the terms mentioned in my notes, glossary s
 
 ## Chapters 📕
 
-* 🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/1.OSI_Layers">1.OSI_Layers</a>
-* 🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/2.Host_Switch_Network">2.Host_Switch_Network</a>
+<ol>
+<li>
+🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/1.OSI_Layers">OSI_Layers</a>
+</li>
+<li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/2.Host_Switch_Network">Host_Switch_Network</a></li>
+</ol>
 
 
 ## Glossary 📝
