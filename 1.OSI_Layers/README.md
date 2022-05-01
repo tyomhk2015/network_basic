@@ -76,3 +76,7 @@ HW                  Network Access    NIC               MAC
 // Low Level ↓
 ```
 
+* Port
+* IP address
+* MAC address
+
