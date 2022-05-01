@@ -33,7 +33,7 @@ HW                Data Link         Network Access      NIC
 
 * User: End-users using and interacting with computers.
   * Application S/W: Software that are built on a platform, and used by end users. (e.g. Video games)
-* Kernel:
+* <a href="https://en.wikipedia.org/wiki/Kernel_(operating_system)">Kernel</a>: A program in the core of OS that enables softwares and hardwares to communicate with each other.
 * S/W: 
   * System S/W: Software that provides a platform. (e.g. OS)
 * H/W:
@@ -48,13 +48,10 @@ HW                Data Link         Network Access      NIC
   * NIC: Network Interface Card (e.g. LAN card)
 
 
-// NOTES
-Don't start and get obsessed with OSI 7 Layer at the very beginning of your journey to network.
-This is not an implementation, it is just a concept.
-
+Personal Notes 🤔<br>
+Don't start and get obsessed with OSI 7 Layer at the very beginning of your journey to network.This is not an implementation, it is just a concept.
 For example, if you are planning to learn about TCP/IP which is not a concept and has tangible implementation, start with that first.
-
-You may come back to OSI 7 layers later.
+You can come back to OSI 7 layers later when situation needs the concept.
 
 <hr>
 
@@ -80,3 +77,25 @@ HW                  Network Access    NIC               MAC
 * IP address
 * MAC address
 
+> Port
+
+Identifier for TCP layer.
+
+
+
+> IP Address
+
+Identifier for Host.
+
+　Host: <br>
+　　A name for a device or computer that is connected to network, Internet.<br>
+　　One device can have more than one IP address that bind with one NIC.<br>
+
+> MAC Address
+
+Identifier for NIC.
+
+　NIC: Netowrk Interface Card<br>
+　　Two types of NICs exist; wired LAN card, and wireless LAN card.<br>
+　　One MAC address for one NIC.<br>
+　　Sometimes called as a 'hardware address', and can be modified.
