@@ -79,8 +79,15 @@ HW                  Network Access    NIC               MAC
 
 > Port
 
-Identifier for TCP layer.
+　Identifier for TCP layer.<br>
+　The definition of 'port' varies on different fields.
 
+* S/W developers'perspective:
+  * Process number
+* L3, L4 network developers' perspective:
+  * Service number
+* H/W network developers' perspective:
+  * Interface number, the numbers describing slots on router machines.
 
 
 > IP Address
