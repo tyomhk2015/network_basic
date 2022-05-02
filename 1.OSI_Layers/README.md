@@ -18,11 +18,11 @@ An example of the term 'conceptual' could be similar to 'MVC', Model-View-Contro
                   Application
 User              Presentation      Application         Process
                   Session
-Application SW                                          (Socket)
+(Application SW)                                        (Socket)
 _________________________________________________________________________
 Kernel            Transport         Transport           TCP
                   Network           Interet             IP
-System SW                                               Driver
+(System SW)                                             Driver
 _________________________________________________________________________
 HW                Data Link         Network Access      NIC
                   Physical
