@@ -5,14 +5,19 @@ The reason for writing these are to improve my weakness of understanding the net
 
 The notes will include personal ponderings about each topic and there will be some over-simplified explanations.<br>
 
-For the convenience of searching for the terms mentioned in my notes, glossary section is added. 📝
+For the convenience of searching the terms mentioned in my notes, glossary section is added. 📝
 
 <hr>
 
 ## Chapters 📕
 
-* 🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/1.OSI_Layers">1.OSI_Layers</a>
-* 🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/2.Host_Switch_Network">2.Host_Switch_Network</a>
+<ol>
+<li>
+🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/1.OSI_Layers">OSI_Layers</a>
+</li>
+<li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/2.Host_Switch_Network">Host_Switch_Network</a></li>
+<li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/3.IP">IP</a></li>
+</ol>
 
 
 ## Glossary 📝
