@@ -49,5 +49,3 @@ Internet consists of routers and DNS.<br>
 ```
 Internet = Router + DNS(Domain Name System)
 ```
-
-
