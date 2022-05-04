@@ -12,7 +12,10 @@ Host can be divided into two parts.
 
 A computer, or a host, that is the network itself. (e.g. Router, Firewall, IPS)
 
-Main role of Switch is switching, filtering and forwarding network packets from one device to another.
+Main role of Switch is switching, filtering and forwarding network packets from one device to another.<br>
+In other words, Switch provides route selection, switching, for packets on network from start to designated computer.
+
+One of goals of networking is finding an optimal route for packets.
 
 There are many kinds of switcing depending on their purpose.<br>
 Router is switch for purpose of finding routes.<br>
@@ -46,6 +49,12 @@ The higher the level gets, the cost will increase as the data get more complex t
 
 Here, network refers as Internet.<br>
 Internet consists of routers and DNS.<br>
+Internet is a set of routers (L3 switch).<br>
 ```
 Internet = Router + DNS(Domain Name System)
 ```
+Routers communicate each other to find optimal routes for different incoming packets.<br>
+Internet is desgined to be functional even thought a few routes could not be functional.
+
+Routing table is used to find an optimal routes for packets<br>
+This is like a road sign for packets and gives some standards for choosing/selecting routes for packets.
