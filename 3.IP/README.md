@@ -13,7 +13,7 @@ Two kinds of IP address exist.<br>
     |----A----|B|
     192.168.99.16*
 
-A: Network ID / Netmask (24bit)
+A: Network ID / Netmask / Subnet (24bit)
 B: Host ID (8 bit)
 * C class IP
 
@@ -22,3 +22,7 @@ B: Host ID (8 bit)
 An alternative way of showing Network ID.
 The '24' means it will read the first 24 bits, 192.168.99.
 ```
+
+### Terms
+
+<a href="https://www.colocationamerica.com/how-ip-address-and-subnets-work">Netmask / Subnet</a>: Length of network ID.
