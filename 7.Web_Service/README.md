@@ -23,6 +23,10 @@ Sir Timothy Berners-Lee (Researcher) → HTML → HTTP → Web
 All the softwares that handles documents on the internet has three parts.
 ```
 GUI + Logic + Data (Document)
+CSS    JS*      HTML
+
+*Mocha → Live → Javascript
+*Runs on web browsers
 ```
 
 The purpose of dividing a document / page into the 3 parts is for maintenance. If all 3 parts are mixed up together, it may take longer time to fix or update the document.
@@ -73,7 +77,7 @@ When the client visits some web site and response was successful, the server wil
 // Steps after browser recieving HTML file from server
 
 1. Analyzes syntax of HTML file, Parsing.
-2. Creates data structure of the DOM by referring to the result of the analysis.
+2. Creates DOM tree, a.k.a data structure, by referring to the result of the analysis.
 3. Start to render the page with given DOM structure.
 4. Portrait / paint the page by referring to CSS file, matching DOM tree and the instructions on CSS. (Images get loaded after rendering DOM + CSS)
 5. Apply javascript files to make the page more interactive.
@@ -86,6 +90,7 @@ Since browsers' main purpose is to view HTML pages, they can be called as 'remot
 ↑ Higher Level
 
 Web Client ------- Internet ------- Web Server ---------- Logic ------------ Database
+                                                      Calculcation
                                                             |<-Keeping in touch*->|
           HTTP Request (w/ Method)
 <---------------------------------------------
@@ -99,5 +104,9 @@ Web Client ------- Internet ------- Web Server ---------- Logic ------------ Dat
 
 Initially, the web server's role was not only to recieve and return requests to users, but also calculate some logics like 'login'. When the web started to interact in two-way communication, the handling logics or calculcation part got decoupled from web server.
 
-In addition, states like 'before login', 'during login', 'after login' etc had to be stored somewhere. However, since HTTP was stateless communication and cannot keep track of the states, a technology called 'database' came into existence to solve the problem.
+In addition, states like 'before login', 'during login', 'after login' etc had to be stored somewhere. However, since HTTP was stateless communication and web server cannot keep track of the states, a technology called 'database' came into existence to solve the problem. On client side, to remember the state, 'cookie*' was introduced and became norm.
+
+```
+*Cookie: Consists of 'key' and 'value' properties with 'time limit' and 'range'.
+```
 
