@@ -23,7 +23,6 @@ Sir Timothy Berners-Lee (Researcher) → HTML → HTTP → Web
 All the softwares that handles documents on the internet has three parts.
 ```
 GUI + Logic + Data (Document)
-View / Controller / Model
 ```
 
 The purpose of dividing a document / page into the 3 parts is for maintenance. If all 3 parts are mixed up together, it may take longer time to fix or update the document.
@@ -32,6 +31,8 @@ Personal Notes 🤔<br>
 2022/05/06 - Currently, HTTP 1.1 is mainly used but there are a lot of shiftings from 1.1 to 2.0.
 
 ```
+// Past web server
+
 ↑ Higher Level
 
 Web Client ------- Internet ------- Web Server
@@ -48,7 +49,7 @@ Web Client ------- Internet ------- Web Server
 <-------------- TCP/IP Connection ----------->
         (State Information is included)
 
-↑ Lower Level
+↓ Lower Level
 ```
 
 HTTP activates after client and server know each other's IP address and are connected with TCP/IP.
@@ -59,11 +60,13 @@ Some of methods for HTTP requests are GET / POST / UPDATE / DELETE.
 ```
 Create / POST
 Read / GET
-Update / UPDATE
+Update / PUT, PATCH
 Delete / DELETE
 ```
 
-The resources of the clients' requests are usually stored somewhere in the server's computer, like HDD or SSD. These resources are static.
+The resources of the clients' requests are usually stored somewhere in the server's computer, like HDD or SSD. These resources are 'static'.
+
+In contrast, creating and showing a new HTML with some visual changes when a user login can be called a 'dynamic' resource.
 
 When the client visits some web site and response was successful, the server will return a HTML file with successed HTTP response code. The recieved HTML file will be handled by the browser that the client is using.
 ```
@@ -77,4 +80,24 @@ When the client visits some web site and response was successful, the server wil
 ```
 
 Since browsers' main purpose is to view HTML pages, they can be called as 'remote page previewers'.
+
+
+```
+↑ Higher Level
+
+Web Client ------- Internet ------- Web Server ---------- Logic ------------ Database
+                                                            |<-Keeping in touch*->|
+          HTTP Request (w/ Method)
+<---------------------------------------------
+    (two-way communication / interaction)    |
+<---------------------------------------------
+                HTTP Response
+↓ Lower Level
+
+*Usually communicate with SQL.
+```
+
+Initially, the web server's role was not only to recieve and return requests to users, but also calculate some logics like 'login'. When the web started to interact in two-way communication, the handling logics or calculcation part got decoupled from web server.
+
+In addition, states like 'before login', 'during login', 'after login' etc had to be stored somewhere. However, since HTTP was stateless communication and cannot keep track of the states, a technology called 'database' came into existence to solve the problem.
 
