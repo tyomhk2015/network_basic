@@ -65,7 +65,7 @@ User                Application       Process
 Application SW                        (Socket)
 _________________________________________________________________________
 Kernel              Transport         TCP               Port
-                    Interet           IP                IP
+                    Internet           IP                IP
 System SW                             Driver
 _________________________________________________________________________
 HW                  Network Access    NIC               MAC
