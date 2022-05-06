@@ -48,11 +48,16 @@ The higher the level gets, the cost will increase as the data get more complex t
 > Network
 
 Here, network refers as Internet.<br>
-Internet consists of routers and DNS.<br>
+Internet consists of routers and DNS.*<br>
 Internet is a set of routers (L3 switch).<br>
 ```
 Internet = Router + DNS(Domain Name System)
+
+*DNS:
+A system that gives you the IP address of the domain name that client have requested, usually at address bar of the browsers.
+A big database of having domain name and IP address mapped. (E.g. Phonebook)
 ```
+
 Routers communicate each other to find optimal routes for different incoming packets.<br>
 Internet is desgined to be functional even thought a few routes could not be functional.
 
