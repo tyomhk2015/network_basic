@@ -90,7 +90,7 @@ HW                  Network Access    NIC               MAC
 
 > IP Address
 
-Identifier for Host.
+Identifier for Host. (IPv4, IPv6)
 
 　Host: <br>
 　　A name for a device or computer that is connected to network, Internet.<br>
@@ -98,7 +98,7 @@ Identifier for Host.
 
 > MAC Address
 
-Identifier for NIC.
+Identifier for NIC and has 48bit.
 
 　NIC: Netowrk Interface Card<br>
 　　Two types of NICs exist; wired LAN card, and wireless LAN card.<br>
