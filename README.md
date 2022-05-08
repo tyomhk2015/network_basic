@@ -12,15 +12,14 @@ For the convenience of searching the terms mentioned in my notes, glossary secti
 ## Chapters 📕
 
 <ol>
-<li>
-🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/1.OSI_Layers">OSI_Layers</a>
-</li>
+<li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/1.OSI_Layers">OSI_Layers</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/2.Host_Switch_Network">Host_Switch_Network</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/3.IP">IP</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/4.Port">Port</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/5.Data_Unit">Data Unit</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/6.Interface_Selection">Interface Selection</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/7.Web_Service">Web Service</a></li>
+<li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/8.WAN_LAN">WAN_LAN</a></li>
 </ol>
 
 
