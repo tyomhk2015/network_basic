@@ -18,7 +18,7 @@ To send HTML to internet efficiently, Sir Timothy Berners-Lee made a protocol ca
 Sir Timothy Berners-Lee (Researcher) → HTML → HTTP → Web
 ```
 
-### Current Web 📜
+### Evolution of Web 📜
 
 All the softwares that handles documents on the internet has three parts.
 ```
@@ -88,9 +88,10 @@ Since browsers' main purpose is to view HTML pages, they can be called as 'remot
 
 ```
 ↑ Higher Level
-
+                                                          (WAS)
 Web Client ------- Internet ------- Web Server ---------- Logic ------------ Database
-                                                      Calculcation
+                                      Receive          Calculcation
+                                      Response           Handler
                                                             |<-Keeping in touch*->|
           HTTP Request (w/ Method)
 <---------------------------------------------
@@ -110,3 +111,79 @@ In addition, states like 'before login', 'during login', 'after login' etc had t
 *Cookie: Consists of 'key' and 'value' properties with 'time limit' and 'range'.
 ```
 
+### Web Application Server 📜
+
+(a.k.a WAS)
+
+```
+// The three composition of web server.
+
+                      (WAS)
+Web Server ---------- Logic ------------ Database
+Recieve            Calculcation
+Response              Handler
+
+                    Controller            Model
+
+1-Tier---------------1-Tier---------------1-Tier (3-Tier Web Solution)
+```
+
+WAS<br>
+* Web application server, or application server.
+* Sometimes called as 'business logic'.
+* A part of a server that provides extra features, handlings for incoming request. (e.g. middleware)
+* Can be implmented with JAVA, Go, Node.js etc.
+
+Common criteria for checking web server performance<br>
+* Response Time of querying database. (Tuning)
+* Response Time of HTTP request and response. (Status of network is crucial)
+* Elapsed time of completing the business logics in WAS
+
+System that monitors performance of the web server is called APM, application performance management system. (e.g. <a href="https://github.com/scouter-project/scouter">Scouter APM</a>). For business, <a href="https://jennifersoft.com/en/product/mainframe/">Jennifer</a>.
+
+### Modern Web 📜
+
+```
+Web Client ------- Internet ------- Web Server
+
+          HTTP Request (w/ Method)
+>---------------------------------------------
+                                             |
+<---------------------------------------------
+                HTTP Response
+```
+
+In the past, response of HTTP request was usually PC HTML files. However, in modern web, JSON became norm, which only has necessary data. I assume the background of this is due to rapid growth of smartphones. 
+
+Returning PC HTML files to smartphones, Android or Apple etc, had possibility of compatibility issue, and creating an exclusive new view files for each smartphone device would not be very efficient. 
+
+To tackle this problem, JSON was used just like headless CMS, where only minimal data is returned to desired devices in order to show a web page lowering chances of compatibility and efficiency issues.
+
+Depending on the content or tech the developers use, the browser can dynamically create their own version of HTML that fits well to their own hardwares. (JS, React, Vue etc)
+
+> RESTful API
+
+Activate C.R.U.D operations by calling specific function, URI.
+
+
+### Security Part
+
+(Network hardwares are excluded from the content.)
+
+```
+                            1     2     3
+Web Client --- Internet -------------------- Web Server
+                          |IPS + SSL + WAF|
+```
+
+>IPS
+
+Intrusion Prevention System
+
+> SSL
+
+Secure Socket Layer, encryption.
+
+> WAF
+
+Web Application Firewall

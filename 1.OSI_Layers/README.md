@@ -1,5 +1,3 @@
-<a href="https://github.com/tyomhk2015/network_basic">Previous</a>
-
 # <a href="https://en.wikipedia.org/wiki/OSI_model">OSI 7 Layers</a>
 
 ### TLDR
