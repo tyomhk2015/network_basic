@@ -20,6 +20,8 @@ For the convenience of searching the terms mentioned in my notes, glossary secti
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/6.Interface_Selection">Interface Selection</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/7.Web_Service">Web Service</a></li>
 <li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/8.WAN_LAN">WAN_LAN</a></li>
+<li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/9.Router">Router</a></li>
+<li>🔎 <a href="https://github.com/tyomhk2015/network_basic/tree/main/10.Inline_&_Out_of_Path">Structure of Inline & Out of path</a></li>
 </ol>
 
 
