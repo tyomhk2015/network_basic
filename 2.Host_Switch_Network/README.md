@@ -45,6 +45,36 @@ A switch using Process is called 'L7 switch'.
 
 The higher the level gets, the cost will increase as the data get more complex than lower level
 
+### L2 Switch
+
+For windows users, you can find physical address using 'ipconfig' command in command prompt. (MAC address)
+
+L2 Access Switch<br>
+The first switch that end-points encounter, or the closest switch of end-points.
+
+L2 Distribution Switch<br>
+A switch for L2 Access Switches, for communicating other end-points that is connected to different L2 Access Switchs.
+
+```
+E.g. (Uplink*)
+L2 Access Switch = Room
+L2 Distribution Switch = A floor of a building with a lot of rooms.
+
+* Direction of network going from low level to higher level.
+
+Link-up: Means 'connected' to network, usually shows green light on the NIC.
+Link-down: Means 'not connected' to network.
+```
+
+```
+The flow from an end-point to internet.
+
+End-point → L2 Access Switch → L2 Distribution Switch → Router (L3, Role of Gateway) → Internet
+```
+If L2 Distibution Switch is a floor with multiple rooms, the router could be put as a building.
+
+
+
 > Network
 
 Here, network refers as Internet.<br>
