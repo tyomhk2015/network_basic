@@ -56,6 +56,6 @@ Inline equiments have responsibilities to either bypass or drop the inbounding/o
 
 If the inline equipments only does the routings, the the equipment is called '**router**'.
 
-If the inline equipments filter some packets due to security concerns, the this is called '**firewall**', packet filtering firewall.
+If the inline equipments filter some packets due to security concerns, the this is called '**firewall**', a.k.a packet filtering firewall.
 
 The structure of the firewall and router almost the same.
