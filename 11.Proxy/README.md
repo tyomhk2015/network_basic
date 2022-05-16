@@ -14,6 +14,7 @@ PC → Internet → Google
 
 // Network flow with proxy
 PC → PC-2 → Internet → Google
+    (Proxy)
 ```
 
 In PC-2's perspective, it listens for inbound from one of its sockets, and send the inbound packets/streams to other sockets for outbound.
@@ -34,3 +35,21 @@ HW                NIC
 ```
 
 If there is a proxy in application layer or in process, it could be called as 'user mode application proxy', uses sockets and streams for communication.
+
+## What is proxy for?
+
+> Indirect access
+
+The identity of original PC will can be disguised as the proxy's PC.
+
+Set proxy setting in the browser, the destination IP will be the proxy's IP.
+
+### Caution
+
+When connecting with proxy, the proxy can see all the communication information of original PC. (Tradeoff of making anonymous identity)
+
+This has some relations with VPN.
+
+### Tor project
+* Main purpose: Freedom to internet
+* Supports indirect access to internet/web sites that are blocked or censored.
