@@ -26,3 +26,7 @@ The '24' means it will read the first 24 bits, 192.168.99.
 ### Terms
 
 <a href="https://www.colocationamerica.com/how-ip-address-and-subnets-work">Netmask / Subnet</a>: Length of network ID.
+
+### Subnet
+
+Resource: <a href="https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=16">Link</a>
